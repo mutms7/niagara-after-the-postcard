@@ -24,7 +24,9 @@ Open http://localhost:4173. To view on a phone on the same Wi-Fi, replace localh
 npm run build
 ```
 
-Upload the contents of `dist/` to any static website host (for example, Netlify Drop or GitHub Pages). Use the host's HTTPS URL in the group chat. There is no backend, account system, analytics, booking integration or secret configuration. This delivery is local; it isn't publicly hosted yet.
+The site is hosted at https://niagara-trip-gamma.vercel.app . Source lives in the private repository https://github.com/mutms7/niagara-after-the-postcard, connected to the Vercel project `niagara-trip`. The `vercel.json` file configures the build and static output. Pushes to `main` deploy through the connected GitHub integration.
+
+You can also upload the contents of `dist/` to another static website host. There is no backend, account system, analytics, booking integration or secret configuration.
 
 ## Edit
 
